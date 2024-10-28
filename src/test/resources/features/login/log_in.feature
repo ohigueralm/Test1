@@ -1,4 +1,5 @@
 Feature: Log in
 
-  Scenario: Try to log in with not valid credentials
-    Given John Wick wants to create a new post
+  Scenario: User want to make a Reservation
+    Given User wants to login
+    When enter reservation details
